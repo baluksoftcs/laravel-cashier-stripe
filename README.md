@@ -20,10 +20,12 @@ This application will demo the simple payment using Stripe ('test' mode enabled)
 
     For stripe, make sure to add below details along with corresponding keys retrieved from Stripe:
     STRIPE_KEY=publishable-key
+
     STRIPE_SECRET=secret-key
+
     CASHIER_CURRENCY=usd
 
-Note: Stripe account must be enabled with test mode.
+    Note: Stripe account must be enabled with test mode.
 
 5. Generate a new application key 
 
@@ -41,7 +43,7 @@ Note: Stripe account must be enabled with test mode.
 
     php artisan serve
 
-Note: once server started the application can be accessed through url: http://127.0.0.1:8000 in browser.
+Note: Once server started the application can be accessed through url: http://127.0.0.1:8000 in browser.
 
 ### This application includes the following Laravel features:
 1. UI Bootstrap with in-built auth.
